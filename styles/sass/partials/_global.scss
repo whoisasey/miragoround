@@ -1,0 +1,30 @@
+//VARIABLES
+$bg-color: #e1e1e1;
+$text: black;
+$font: "Roboto", sans-serif;
+$accent: white;
+$color-light: rgb(255, 217, 0);
+$color-dark: rgba(0, 0, 0, 1);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+body {
+  text-align: center;
+  font-family: "Roboto";
+}
+
+.wrapper {
+  max-width: 1200px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+video,
+img {
+  width: 100%;
+}
